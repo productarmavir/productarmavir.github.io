@@ -1,0 +1,146 @@
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+
+<style>
+body{
+background:#fc2c77;
+}
+.cont{
+background:white;
+margin:200px auto;
+width:630px;
+padding-bottom:50px;
+border-radius:10px;
+
+
+
+
+}
+
+*{
+font-family: 'Baloo Tamma 2', cursive;
+
+
+}
+
+
+
+input{
+padding:20px 50px 20px 20px;
+border:1px solid #ccc;
+border-radius:5px;
+background:#fafafa;
+}
+
+
+.date{
+width:100%;
+}
+
+.gender{
+margin:0;
+padding-bottom:32.5px;
+}
+
+.reg{
+padding:50px 0 0 45px;
+font-size:25px;
+}
+
+.cont2 input{
+margin-bottom:23.5px;
+}
+
+
+.flex{
+display:flex;
+justify-content: space-evenly;
+}
+
+
+.sub{
+padding-left:45px;
+}
+
+
+select{
+margin-left:45px;
+padding-right:430px;
+height:50px;
+
+
+}
+
+.lastname{
+padding-bottom:0;
+}
+
+button{
+margin:25px 0 20px 45px;
+width:150px;
+line-height:50px;
+font-size:20px;
+background:#4272d7;
+color:white;
+border:none;
+border-radius:5px;
+}
+</style>
+
+</head>
+
+
+<body>
+<div class="cont" >
+
+<p class="reg">Registration Form</p>
+
+<div class="flex2">
+<div class="cont1">
+<div class="flex">
+<div class="cont11">
+<p>First Name</p>
+<input type="text"/>
+<p>Birthday</p>
+<input class="date" type="datetime-local"/>
+<p>Email</p>
+<input type="email"/>
+</div>
+
+
+
+<div class="cont2">
+<p class="lastname">Last Name</p>
+<input type="text"/>
+<p class="gender">Gender</p>
+<input  type="radio" name="gender" value="male"/>Male
+<input type="radio" name="gender" value="female"/>Female
+
+<p>Phone Number</p>
+<input type="number"/>
+</div>
+
+</div class="subject">
+<p class="sub">Subject</p>
+<select class="select">
+<option disabled >Choose option</option>
+<option>Subject1</option>
+<option>Subject2</option>
+<option>Subject3</option>
+</select>
+<button>Submit</button>
+</div>
+
+
+</body>
+
+
+
+
+
+
+
+</html>
