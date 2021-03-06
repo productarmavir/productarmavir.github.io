@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Web</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+	.teg{
+		opacity:0.8;
+		width: 100%;
+		text-align: center;
+	}
+	.teg:hover{
+opacity: 1;
+background:#ccc	;
+
+	}
+.cont{
+	background-image: url("https://www.w3schools.com/w3images/wedding_couple.jpg");
+	background-size: 100%;
+padding:300px;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.cont2{
+	background:#fbd0d0;
+	padding:100px;
+	text-align: center;
+}
+.rad{
+	border-radius: 5px;
+}
+.img{
+	background-image: url("https://www.w3schools.com/w3images/flowers.jpg");
+	background-size: cover;
+	padding:300px;
+	background-repeat: no-repeat;
+	
+}
+.bt{
+	padding:15px 20px 15px 20px;
+background: black;
+color:white;
+border:none;
+}
+.bt:hover{
+	padding:15px 20px 15px 20px;
+background: #ccc;
+color:black;
+border:none;
+}
+.cont3{
+	background:#ffdddd!important;
+	text-align: center;
+	padding:100px;
+}
+
+.bt2{
+	margin-top: 30px;
+		padding:15px 50px 15px 50px;
+		border-radius: 5px;
+background:#f44336;
+color:white;
+border:none;
+font-size: 25px;
+}
+.bt2:hover{
+	margin-top: 30px;
+		padding:15px 50px 15px 50px;
+		border-radius: 5px;
+background:#ccc;
+color:black;
+border:none;
+font-size: 25px;
+}
+.click{
+text-align: center;
+position: absolute;
+background:white;
+left:350px;
+top:100px;
+width: 600px;
+padding-bottom: 50px;
+}
+.click2{
+	top:0;
+	width: 100%;
+height:100vh;
+	position: relative;
+	background:rgba(0,0,0,0.5);
+}
+.pos{
+	position: fixed;
+}
+.bt3{
+	width:245px;
+	border:none;
+	background: green;
+color:white;
+}
+.bt3:hover{
+	background: grey;
+}
+.btred{
+	background:red;
+}
+.btred:hover{
+	background:grey;
+}
+
+.anim{
+	animation-name: scale;
+	animation-duration: 1s;
+}
+
+@keyframes scale{
+0%{transform:scale(0)}
+100%{transform: scale(1)}
+}
+
+</style>
+</head>
+<body>
+	
+<nav class="navbar navbar-expand-sm bg-light d-flex fixed-bottom ">
+
+  <ul style="width:100%;" class="navbar-nav justify-content-between">
+    <li class="nav-item teg">
+      <a class="nav-link text-secondary " href="#cont">Home</a>
+    </li>
+    <li class="nav-item teg">
+      <a class="nav-link text-secondary" href="#jane">Jane & John</a>
+    </li>
+    <li class="nav-item teg">
+      <a class="nav-link text-secondary" href="#id1">Wedding</a>
+    </li>
+       <li class="nav-item teg">
+      <a class="nav-link text-secondary" href="#rs">RSVP</a>
+    </li>
+  </ul>
+
+</nav>
+<div class="container-fluid cont" id="cont">
+	
+<h1 style="font-size: 70px;" class="text-white">Jane & John</h1>
+<h1 class="text-white">Are getting married</h1>
+<h3 class="text-white"><b>17.07.2017</b></h3>
+
+</div>
+<div class="container-fluid cont2">
+<div class="container">
+	<h1 class="text-secondary pb-5" id="jane">Jane & John</h1>
+	<img class="rad" src="https://www.w3schools.com/w3images/wedding_couple2.jpg">
+	<p style="text-align: left;width:90%;padding-left:100px;" class="pt-5 text-secondary"><i>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</i></p>
+	<button class="bt rad"><a href="#id1" class="text-white">Wedding Details</a></button>
+</div>
+</div>
+<div class="img text-center">
+	<h1 style="font-size: 70px;" class="text-white">You Are Invited</h1>
+	<h4 class="text-white">Of course..</h4>
+</div>
+<div class="container-fluid cont2">
+<div class="container">
+	<h1 class="text-secondary pb-5" id="id1">THE WEDDING</h1>
+	<img class="rad" src="https://www.w3schools.com/w3images/wedding_location.jpg">
+	<div class="row justify-content-around p-5">
+		<div class="col text-secondary">
+			<h2>When</h2>
+			<p>Wedding Ceremony - 2:00pm</p>
+			<p>Reception & Dinner - 5:00pm</p>
+		</div>
+		<div class="col text-secondary">
+			<h2>Where</h2>
+			<p>Some place, an address</p>
+			<p>Some where, some address</p>
+		</div>
+	</div>
+</div>
+</div>
+<div  class="container-fluid cont3">
+<div class="container" >
+	<h1 id="rs">HOPE YOU CAN MAKE IT!</h1>
+<h4>Kindly Respond By January, 2017</h4>
+<button class="bt2" onclick="f()">RSVP</button>
+</div>
+</div>
+
+<div class="container-fluid" id="idd">
+<div>
+	<div class="click shadow"  id="div">
+		<h1 style="padding-top:25px;">CAN YOU COME?</h1>
+		<p>We really hope you can make it.</p>
+		<input type="text" name="" style="width:70%;margin-top: 30px;" placeholder="Name(s)">
+		<p style="padding-top:20px;"><i>Sincerely, John & Jane</i></p>
+		<div class="d-flex justify-content-center pb-3">
+			<button class="bt3" onclick="e()">Going</button>
+			<button class="bt3 btred" onclick="e()">Can't come</button>
+		</div>
+	</div>
+</div>
+</div>
+
+<script type="text/javascript">
+	let a=document.getElementById("div")
+    a.classList.add("d-none")
+let b=document.getElementById("idd")
+
+   function f(){
+   		b.classList.remove("d-none")
+   	a.classList.remove("d-none")
+   	b.classList.add("click2")
+   	b.classList.add("pos")
+   	a.classList.add("anim")
+   }
+
+
+function e(){
+	b.classList.add("d-none")
+}
+
+</script>
+</body>
+</html>
