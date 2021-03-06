@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap" rel="stylesheet">
+<script src="jquery-3.5.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	   .swiper-container {
+      width: 100%;
+      height: 100%;
+      font-family: 'Nunito Sans', sans-serif;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+     
+    }
+    .dnp{
+   animation-name: dd;
+   animation-direction: 2s;
+
+   animation-duration: 1.5s;
+
+  top:0;
+    }
+
+.yu:hover~.klk{
+  transform: scale(1);
+}
+
+    @keyframes dd{
+      from{top:500px;}
+      to{top:0;}
+    }
+    .gh{
+      border:none;
+      border-bottom: 3px solid grey;
+      padding-bottom: 30px;
+       text-align: center;
+    }
+    .yel{
+      color:orange;
+      border-color:orange;
+    text-align: center;
+    }
+    .klk{
+transform: scaleX(0);
+transition: 1s;
+}
+.juj{
+	transition: 1s;
+  position: relative;
+}
+.ikil{
+	transition:1s;
+}
+.juj:hover .ikil{
+	transform: rotate(30deg);
+}
+.fgf{
+	transition: 1s;
+	transform: scaleX(0.7);
+}
+  .juj:hover .fgf{
+	transform: scaleX(1);
+	background: orange!important;
+}
+.yuj{
+	transition: 1s;
+}
+  .juj:hover .yuj{
+	color:orange;
+}
+
+.ttg img{
+width: 300px;
+margin:10px;
+}
+.ol{
+	color:orange;
+}
+.anim{
+  animation-name: anim;
+  animation-duration: 0.5s;
+  
+}
+@keyframes anim{
+  from{left:100px;top:100px;}
+  to{left:0px;top:0px;}
+}
+.animynd{
+  animation-name: animynd;
+  animation-duration: 0.5s;
+  transform: rotate(0deg);
+}
+
+@keyframes animynd{
+   from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
+}
+.div1{
+  height: 5px;
+  width: 70px;
+  background: orange;
+  margin-left: 175px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.imgesArch:hover~.diver{
+top:160px;
+z-index: 1;
+opacity:1;
+}
+.diver:hover{
+  top:160px;
+  z-index: 1;
+  opacity:1;
+}
+.span1{
+font-size: 30px;
+}
+.cont1{
+  background: url("https://themefox.online/archtera/assets/img/counter-bg.jpg");
+  background-size: 100%;
+  background-color: rgb(120,120,120);
+  background-repeat: no-repeat;
+  height: 300px;
+  background-blend-mode: darken;
+}
+.bt{
+	margin-top: 20px;
+height: 50px;
+width: 100px;
+border: none;
+background: orange;
+color:white;
+transition: 0.5s;
+}
+.bt:hover{
+	background-color: black;
+}
+.diver{
+  position: absolute;
+  top:330px;
+  margin-left:25px;
+  height: 130px;
+  width: 270px;
+  background-color: white;
+  z-index:-1;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+
+.div2{
+background-color: orange;
+height: 3px;
+width: 50px;
+margin: 0 auto;
+}
+.icon{
+  transition: 0.5s;
+}
+.icon:hover{
+  color: orange;
+}
+.yhyr{
+	padding: 5px;
+	border-radius: 100%;
+	border: 2px solid orange;
+	transition: 0.5s;
+}
+.inp{
+	height: 50px;
+	width: 500px;
+	margin-top: 30px;
+	border: none;
+	padding-left: 20px;
+}
+.pop{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+ z-index: 11;
+  position: fixed;
+  top:0;
+}
+.popimg{
+  margin-top: 100px;
+}
+.but{
+  background-color: grey;
+  color:black;
+  font-size: 70px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1111;
+  right:100px;
+  top:250px;
+}
+.xxx{
+  background-color: grey;
+  color:black;
+  width: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1111;
+  right:475px;
+  top:50px;
+}
+.but2{
+  background-color: grey;
+  color:black;
+  font-size: 70px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1111;
+  left:100px;
+  top:250px;
+}
+.mekiDiv{
+  background-color: #e7e9ec;
+  height: 10px;
+  width: 70%;
+  position: absolute;
+margin-top: 40px;
+margin-left:75px;
+}
+.erkuDiv{
+  background-color: #d6d6d6;
+  height: 10px;
+  width: 65%;
+  position: absolute;
+margin-top:30px;
+margin-left:110px;
+}
+.com{
+  height: 500px;
+
+}
+.contbig{
+  width:85%;
+  
+}
+.contbig22{
+  width:60%;
+  margin-left: 100px;
+}
+.swp span{
+  background-color: orange;
+  margin: 5px;
+  border-radius: 0%;
+  height: 20px;
+  width: 20px;
+}
+.hyuj{
+  width: 400px;
+  margin-top: 50px;
+  border:none;
+  border-left:1px solid #ccc;
+}
+.poqr{
+  margin:40px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.sd{
+  width: 200px!important;
+  height: 100px;
+margin:30px;
+}
+.kap,.kar{
+  transition:0.5s;
+}
+
+
+.sd:hover .kap{
+  color:blue;
+}
+.sd:hover .kar{
+  color:red;
+}
+.span3{
+margin-left:20px;
+}
+.span2{
+position: absolute;
+  transition: 1s;
+}
+.span3{
+
+  transition: 1s;
+}
+.span2:hover{
+  transform: translate(10px,0);
+}
+.pp1:hover .span2{
+transform: translate(10px,0);
+}
+.pp1:hover .span3{
+color:orange;
+}
+.biger{
+min-width: 1300px;
+margin:0 auto;
+
+}
+.foot{
+  padding: 25px 25px 25px 25px;
+  background-color: black;
+  color:white;
+}
+.droppp{
+  position: absolute;
+  top:100px;
+
+  z-index:1111;
+
+}
+.p3{
+  margin:0;
+height: 50px;
+width: 100px;
+background-color: white;
+border: 1px solid #ccc;
+position: absolute;
+}
+.drop{
+  width: 627px;
+
+
+}
+.tras{
+	transition: 0.5s;
+	transform: rotate(180deg);
+}
+.pp11{
+	top:50px;
+  opacity: 0;
+}
+.pp22{
+	top:100px;
+    opacity: 0;
+}
+.pp33{
+	top:150px;
+    opacity: 0;
+}
+.pp44{
+	top:200px;
+    opacity: 0;
+}
+#ab{
+  position: relative;
+}
+.opp{
+  opacity: 1;
+  transition: 0.5s;
+}
+.medtext2{
+  margin-left: 20px;
+}
+@media screen and (max-width: 300px){
+  .cont2{
+   width: 300px;
+height: 50px;
+  }
+  .med2{
+    width: 100px!important;
+    position: absolute;
+left: -40px;
+top:0;
+padding-bottom: 30px;
+
+  }
+  .med3{
+    margin-left: 100px;
+  }
+  .med4{
+  /*  width: 280px!important;
+    height: 280px!important;*/
+   /* margin:0!important;*/
+    left: -130px!important;
+    transform: scale(0.5);
+  }
+  .med5{
+    margin:0!important;
+    padding: 0!important;
+    transform: scale(0.5);
+  }
+  .med6{
+    display: none;
+  }
+  .medtext{
+    width: 400px;
+  }
+  .medbl{
+    display: block;
+  }
+  .medtext2{
+    width: 300px;
+    margin: 0 auto;
+  }
+  .med7{
+    height: 300px!important;
+  }
+  .med8{
+    width: 280px!important;
+  }
+  .med9{
+padding: 0!important;
+  margin: 0!important;
+  transform: scale(0.5)
+  }
+}
+
+.med8{
+  width:300px;
+}
+</style>
+<body>
+  <div class="big">
+  <div class="cont2">
+  <nav class="navbar navbar-expand-sm bg-none justify-content-around ml-5 mr-5 pl-5 pr-5">
+
+  <ul class="navbar-nav ">
+    <li class="nav-item"><img class="med2" height="80px" width="170px" src="https://themefox.online/archtera//assets/img/logo.svg"></li>
+  </ul>
+    <button class="navbar-toggler med3 " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon "><i class="fa fa-bars  text-dark mt-1"></i></span>
+  </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+  <ul class="navbar-nav justify-content-between">
+    <li class="nav-item">
+     <a class="nav-link text-dark ml-4 yu" href="#"><b>HOME</b></a>
+      <div class="klk" style="position: relative;height: 5px;width: 100px;background: orange;left: 15px;"></div>
+    </li>
+     <li class="nav-item">
+     <a class="nav-link text-dark ml-4 yu" href="#"><b>ABOUT US</b></a>
+      <div class="klk" style="position: relative;height: 5px;width: 100px;background: orange;left: 15px;"></div>
+
+    </li>
+       <li class="nav-item">
+     <a class="nav-link text-dark ml-4 yu" href="#"><b>PORTFOLIO</b></a>
+      <div class="klk" style="position: relative;height: 5px;width: 100px;background: orange;left: 15px;"></div>
+
+    </li>
+       <li class="nav-item">
+     <a class="nav-link text-dark ml-4 yu" href="#"><b>SERVICES</b></a>
+      <div class="klk" style="position: relative;height: 5px;width: 100px;background: orange;left: 15px;"></div>
+
+    </li>
+       <li class="nav-item">
+     <a class="nav-link text-dark ml-4 yu" id="klkl" href="#"><b>CONTACT US</b></a>
+      <div class="klk" style="position: relative;height: 5px;width: 100px;background: orange;left: 15px;"></div>
+
+    </li>
+       <li class="nav-item" >
+     <a class="nav-link text-dark ml-4 yu" id="ab" href="#"><b>PAGES</b> <i id="ikij" class="fa fa-arrow-down" style="transition: 0.5s"></i>
+     <div id="droopp2" class="droppp d-none">
+  <p class="p3 pp11">FAQ</p>
+  <p class="p3 pp22">Blank Page</p>
+  <p class="p3 pp33">Plans</p>
+  <p class="p3 pp44">404 page</p>
+</div></a>
+      <div class="klk" style="position: relative;height: 5px;width: 100px;background: orange;left: 15px;"></div>
+
+    </li>
+       <li class="nav-item" id="elem">
+   <a class="nav-link text-dark ml-4 yu" href="#"><b>ELEMENTS</b> <i class="fa fa-arrow-down"></i></a>
+      <div class="klk" style="position: relative;height: 5px;width: 100px;background: orange;left: 15px;"></div>
+
+    </li>
+  </ul>
+</div>
+</nav>
+
+	<div class="med1" style="position: absolute;width: 100%;margin:0 auto;margin-top: 0;">
+	<div class="swiper-container" style="overflow: hidden;height: 500px;">
+    <div class="swiper-wrapper " >
+      <div class="swiper-slide">
+      	<img src="https://themefox.online/archtera/assets/img/slider-1.jpg">
+<div id="mek" class="dn med4" style="position: absolute;left: 100px;background:rgba(255,255,255,0.7);opacity:0.9;width: 500px;height: 100%;">
+	<p style="padding-top: 100px;color:grey;text-align: left;margin-left: 70px;">
+SOLVING CHALLENGES MATTER A LOT OF IN INTERIOR DESIGN BUSINESS
+</p>
+	<h1 style="text-align: left;margin-left: 70px;padding-top: 30px;">TOP NOTCH ARCHITECTURE SOLUTIONS</h1>
+	<button style="background: orange;border:none;color:white;padding: 15px;font-size:25px;margin-right: 175px;margin-top:70px;">GET QUOTE</button>
+</div>
+      	</div>
+      <div class="swiper-slide"><img src="https://themefox.online/archtera/assets/img/slider-2.jpg">
+<div id="erku" class="dn med4" style="position: absolute;left: 100px;top:0;background:rgba(255,255,255,0.7);opacity:0.9;width: 500px;height: 100%;">
+	<p style="padding-top: 100px;color:grey;text-align: left;margin-left: 70px;">
+SOLVING CHALLENGES MATTER A LOT OF IN INTERIOR DESIGN BUSINESS
+</p>
+	<h1 style="text-align: left;margin-left: 70px;padding-top: 30px;">TRADITIONAL<br> KITCHEN TILES</h1>
+	<button style="background: orange;border:none;color:white;padding: 15px;font-size:25px;margin-right: 175px;margin-top:70px;">GET QUOTE</button>
+</div>
+      </div>
+      
+    </div>
+    </div>
+<div class="row m-0 p-0">  
+ <div class="col-6 med5  m-5 p-5">
+  <h1 class="medtext">WE TURN YOUR DREAM INTO  YOUR DREAM HOME</h1>
+  <div style="height: 5px;width:100px;background: orange;"></div>
+  <div class="row medbl mt-5 ml-2">
+    <div class=" gh yel medtext2"><b>ABOUT US</b></div>
+    <div class=" gh medtext2" ><b>WHY CHOOSE US</b></div>
+    <div class=" gh medtext2"><b>OUR MISSION</b></div>
+  </div>
+  <p id="pp" style="font-size: 20px;color:grey" class="mt-5 medtext">Archtera offers the widest and best in class range in furniture, home furnishings & decor, modular kitchens, home improvement and more. We promise to facilitate our customers with a unique and personalized shopping experience.</p>
+  <button id="bt"  class="mt-5 bt1" style="font-size: 20px;height: 50px;width: 200px;background: orange;border:none;color:white;margin-right: 30px;"><b>GET IN TOUCH</b></button>
+    <button class="mt-5 bt1" style="font-size: 20px;height: 50px;width: 250px;background: none;border:1px solid black;color:black;"><b>READ MORE ABOUT US</b></button>
+</div>
+<div class="col-5 med6" style="background: url('https://themefox.online/archtera/assets/img/about.jpg');background-repeat:no-repeat;margin-top: 130px;margin-left: 16px;">
+
+</div>
+</div>
+ <div class="m-5 pl-5 pt-5 med9">
+   <h1>SERVICES WE OFFER</h1>
+     <div style="height: 5px;width:150px;background: orange;"></div>
+     <div class="row medbl">
+       <div class=" med8 text-center border shadow ml-5 mt-5  p-3 juj">
+         <img width="50px" src="https://themefox.online/archtera/assets/img/service-ico-1.png" class="iki">
+         <div class="ikil" style="width: 45px;height: 35px;border-radius: 50%;background: orange;opacity: 0.7;position: absolute;left: 133px;top:30px;z-index: -2"></div>
+         <h5 class="mt-5 yuj">Architecture</h5>
+         <div style="height: 3px;width: 70px;background: #ccc;margin: 0 auto;" class="mt-3 mb-3 fgf"></div>
+         <p class="" style="color:grey;font-size: 20px;">We help to bring a unique character and identity into your home, office or any functional interior spaces.</p>
+       </div>
+     
+ <div class=" med8 text-center border shadow ml-5 mt-5  p-3 juj">
+         <img width="50px" src="https://themefox.online/archtera/assets/img/service-ico-2.png" class="iki">
+         <div class="ikil" style="width: 45px;height: 35px;border-radius: 50%;background: orange;opacity: 0.7;position: absolute;left: 133px;top:30px;z-index: -2"></div>
+         <h5 class="mt-5 yuj">Interior Design</h5>
+         <div style="height: 3px;width: 70px;background: #ccc;margin: 0 auto;" class="mt-3 mb-3 fgf"></div>
+         <p class="" style="color:grey;font-size: 20px;">We provide problem free renovation with qualified experts. 100% hassle-free and managed by us!</p>
+       </div>
+
+ <div class=" med8 text-center border shadow ml-5 mt-5  p-3 juj">
+         <img width="50px" src="https://themefox.online/archtera/assets/img/service-ico-3.png" class="iki">
+         <div class="ikil" style="width: 45px;height: 35px;border-radius: 50%;background: orange;opacity: 0.7;position: absolute;left: 133px;top:30px;z-index: -2"></div>
+         <h5 class="mt-5 yuj">House Renovation</h5>
+         <div style="height: 3px;width: 70px;background: #ccc;margin: 0 auto;" class="mt-3 mb-3 fgf"></div>
+         <p class="" style="color:grey;font-size: 20px;">We have an in house team of specialist for house extensions, basement conversions and full house renovations.</p>
+       </div>
+
+     </div>
+ </div>
+ <div class="bg-light">
+ 	  <h1 style="margin-left:100px;">OUR PROJECTS</h1>
+     <div style="height: 5px;width:150px;background: orange;margin-left:100px;"></div>
+ 	<div class="d-flex justify-content-center">
+ 		<p style="margin:30px;" class="php ol"><b>ALL</b></p>
+ 			<p style="margin:30px;" class="php"><b>ARCHITECTURE</b></p>
+ 				<p style="margin:30px;" class="php"><b>INTERIOR DESIGN</b></p>
+ 					<p style="margin:30px;" class="php"><b>HOUSE RENOVATION</b></p>
+ 	</div>
+ 	<div class="row m-0 ttg   pb-5" >
+ 		<div class="col-3 m-0 arch " style="position: relative">
+ 			<img class="imgesArch" src="https://themefox.online/archtera/assets/img/works/1-thump.jpg" alt="">
+      <div class="diver text-center">
+        <h5 class="mt-3">THE NOOK HOUSE</h5>
+        <div class="div2 mt-3"></div>
+        <h6 class="ml-5 mt-4">ARCHITECTURE<span class="ml-5 mt-5"><i class="fa fa-search text-right icon"></i></span></h6>
+      </div>
+  </div>
+
+	<div class="col-3 m-0 has" style="position: relative">
+ 			<img class=" imgesArch" src="https://themefox.online/archtera/assets/img/works/2-thump.jpg" alt="">
+      <div class="diver text-center">
+        <h5 class="mt-3">THE NOOK HOUSE</h5>
+        <div class="div2 mt-3"></div>
+        <h6 class="ml-5 mt-4">ARCHITECTURE<span class="ml-5 mt-5"><i class="fa fa-search text-right icon"></i></span></h6>
+      </div>
+  </div>
+  	<div class="col-3 m-0 has" style="position: relative">
+ 			<img class=" imgesArch" src="https://themefox.online/archtera/assets/img/works/3-thump.jpg" alt="">
+      <div class="diver text-center">
+        <h5 class="mt-3">THE NOOK HOUSE</h5>
+        <div class="div2 mt-3"></div>
+        <h6 class="ml-5 mt-4">ARCHITECTURE<span class="ml-5 mt-5"><i class="fa fa-search text-right icon"></i></span></h6>
+      </div>
+  </div>
+  	<div class="col-3 m-0 int" style="position: relative">
+ 			<img class="imgesArch" src="https://themefox.online/archtera/assets/img/works/4-thump.jpg" alt="">
+      <div class="diver text-center">
+        <h5 class="mt-3">THE NOOK HOUSE</h5>
+        <div class="div2 mt-3"></div>
+        <h6 class="ml-5 mt-4">ARCHITECTURE<span class="ml-5 mt-5"><i class="fa fa-search text-right icon"></i></span></h6>
+      </div>
+  </div>
+   	<div class="col-3 m-0 arch " style="position: relative">
+ 			<img class="imgesArch" src="https://themefox.online/archtera/assets/img/works/5-thump.jpg" alt="">
+      <div class="diver text-center">
+        <h5 class="mt-3">THE NOOK HOUSE</h5>
+        <div class="div2 mt-3"></div>
+        <h6 class="ml-5 mt-4">ARCHITECTURE<span class="ml-5 mt-5"><i class="fa fa-search text-right icon"></i></span></h6>
+      </div>
+  </div>
+   	<div class="col-3 m-0 arch " style="position: relative">
+ 			<img class="imgesArch" src="https://themefox.online/archtera/assets/img/works/6-thump.jpg" alt="">
+      <div class="diver text-center">
+        <h5 class="mt-3">THE NOOK HOUSE</h5>
+        <div class="div2 mt-3"></div>
+        <h6 class="ml-5 mt-4">ARCHITECTURE<span class="ml-5 mt-5"><i class="fa fa-search text-right icon"></i></span></h6>
+      </div>
+  </div>
+   	<div class="col-3 m-0 has" style="position: relative">
+ 			<img class=" imgesArch" src="https://themefox.online/archtera/assets/img/works/7-thump.jpg" alt="">
+      <div class="diver text-center">
+        <h5 class="mt-3">THE NOOK HOUSE</h5>
+        <div class="div2 mt-3"></div>
+        <h6 class="ml-5 mt-4">ARCHITECTURE<span class="ml-5 mt-5"><i class="fa fa-search text-right icon"></i></span></h6>
+      </div>
+  </div>
+   	<div class="col-3 m-0 int" style="position: relative">
+ 			<img class="imgesArch" src="https://themefox.online/archtera/assets/img/works/8-thump.jpg" alt="">
+      <div class="diver text-center">
+        <h5 class="mt-3">THE NOOK HOUSE</h5>
+        <div class="div2 mt-3"></div>
+        <h6 class="ml-5 mt-4">ARCHITECTURE<span class="ml-5 mt-5"><i class="fa fa-search text-right icon"></i></span></h6>
+      </div>
+  </div>
+ 	</div>
+ </div>
+<div class="cont1 pt-5">
+  <div class="row m-0">
+    <div class="col-4 text-center" style="border:none;border-right: 1px solid white">
+      <img width="50px" src="https://themefox.online/archtera//assets/img/medal.svg">
+      <div class="div1"></div>
+      <h1 id="arajin" class="text-white">0</h1>
+      <p class="text-white">Years of Service</p>
+
+    </div>
+
+     <div class="col-4 text-center" style="border:none;border-right: 1px solid white">
+      <img width="50px" src="https://themefox.online/archtera//assets/img/flag.svg">
+      <div class="div1"></div>
+      <h1 id="erkrord" class="text-white">0</h1>
+      <p class="text-white">Completed Projects</p>
+    </div>
+     <div class="col-4 text-center">
+      <img width="50px" src="https://themefox.online/archtera//assets/img/hands.svg">
+      <div class="div1"></div>
+      <h1 id="errord" class="text-white">0</h1>
+      <p class="text-white">Satisfied Clients</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid p-5 bg-light">
+	<h2>FREQUENTLY ASKED QUESTIONS</h2>
+	<div class="div1 m-0"></div>
+	<div class="row">
+		<div class="col-6 m-3">
+	<div class="row p-2 mt-3 ml-1 bg-white div3">
+		<div class="col-11"><p style="font-size:20px;"><b>What are the services we provide?</b></p></div>
+		<div class="col-1"><i id="dropMEK" class="yhyr fa fa-arrow-down"></i></div>
+	</div>
+	<div id="dropMek"  class="bg-white drop">
+	<p style="font-size:20px;" class="text-secondary p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur earum eaque animi ipsa doloremque aliquam fugiat molestias, quia nostrum impedit fuga quos similique quis laborum dolore minima cum ea est alias voluptatum voluptates deserunt nisi sed soluta. Quasi quia esse eius assumenda numquam cumque, ipsam enim tempora illo minus inventore voluptatibus vel cupiditate nobis quo autem incidunt eveniet! Quae, dignissimos?</p>
+	</div>
+
+	<div class="row p-2  bg-white ml-1 div3 mt-3">
+		<div class="col-11"><p style="font-size:20px;"><b>Why are we unique and special?</b></p></div>
+		<div  class="col-1"><i id="dropERKU" class="yhyr fa fa-arrow-down"></i></div>
+	</div>
+	<div id="dropErku"  class="bg-white drop">
+	<p style="font-size:20px;" class="text-secondary p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur earum eaque animi ipsa doloremque aliquam fugiat molestias, quia nostrum impedit fuga quos similique quis laborum dolore minima cum ea est alias voluptatum voluptates deserunt nisi sed soluta. Quasi quia esse eius assumenda numquam cumque, ipsam enim tempora illo minus inventore voluptatibus vel cupiditate nobis quo autem incidunt eveniet! Quae, dignissimos?</p>
+	</div>
+
+
+	<div class="row p-2  bg-white ml-1 div3 mt-3">
+		<div class="col-11"><p style="font-size:20px;"><b>What are the process of your project initiation?</b></p></div>
+		<div  class="col-1"><i id="dropEREQ" class="yhyr fa fa-arrow-down"></i></div>
+	</div>
+	<div id="dropEreq"  class="bg-white drop">
+	<p style="font-size:20px;" class="text-secondary p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur earum eaque animi ipsa doloremque aliquam fugiat molestias, quia nostrum impedit fuga quos similique quis laborum dolore minima cum ea est alias voluptatum voluptates deserunt nisi sed soluta. Quasi quia esse eius assumenda numquam cumque, ipsam enim tempora illo minus inventore voluptatibus vel cupiditate nobis quo autem incidunt eveniet! Quae, dignissimos?</p>
+	</div>
+
+	</div>
+
+<div class="col">
+<h4><b>Still have questions?</b></h4>
+<p class="text-secondary">Please fill bellow form along with your query</p>
+<input type="text" placeholder="Name" class="inp">
+<input type="number" placeholder="Phone no." class="inp">
+<input type="email" placeholder="Email" class="inp">
+<textarea class="inp" style="height: 200px;padding-top:15px;transition: 0.1s;" placeholder="Write Query"></textarea><br>
+<button class="bt"><b>SUBMIT</b></button>
+</div>
+	</div>
+</div>
+<div class="pop d-none text-center" id="popp">
+  <button class="xxx" onclick="canc()">X</button>
+  <button class="but" onclick="hajord()">></button>
+   <button class="but2" onclick="naxord()"><</button>
+  <img class="popimg" src="" id="popImg">
+  <div class="row mt-5">
+    <div class="col">
+      <img width="100px" class="takiImg" src="https://themefox.online/archtera/assets/img/works/1-thump.jpg">
+    </div>
+     <div class="col">
+      <img width="100px" class="takiImg" src="https://themefox.online/archtera/assets/img/works/2-thump.jpg">
+    </div>
+     <div class="col">
+      <img width="100px" class="takiImg" src="https://themefox.online/archtera/assets/img/works/3-thump.jpg">
+    </div>
+     <div class="col">
+      <img width="100px" class="takiImg" src="https://themefox.online/archtera/assets/img/works/4-thump.jpg">
+    </div>
+     <div class="col">
+      <img width="100px" class="takiImg" src="https://themefox.online/archtera/assets/img/works/5-thump.jpg">
+    </div>
+     <div class="col">
+      <img width="100px" class="takiImg" src="https://themefox.online/archtera/assets/img/works/6-thump.jpg">
+    </div>
+     <div class="col">
+      <img width="100px" class="takiImg" src="https://themefox.online/archtera/assets/img/works/7-thump.jpg">
+    </div>
+      <div class="col">
+      <img width="100px" class="takiImg" src="https://themefox.online/archtera/assets/img/works/8-thump.jpg">
+    </div>
+  </div>
+</div>
+<div class="container-fluid contbig">
+  <h1 class="mt-5">WHAT OUR CLIENTS SAY</h1>
+  <div class="div1 m-0"></div>
+    <div class="erkuDiv"></div>
+  <div class="mekiDiv"></div>
+ <div class="swiper-container2 shadow mt-5" style="overflow: hidden;">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide com text-center d-block">
+        <img class="mt-3" width="150px" height="150px" style="border-radius: 100%;" src="https://themefox.online/archtera//assets/img/user-img-1.jpg">
+        <p class="mt-5">
+                     
+                                We are extremely happy with work done by the team at Archtera. Highly 
+                                professional, committed and very good after<br> sales service. Highly recommended home
+                                interior
+                                designers.
+                            
+                            </p>
+                            <h4 class="mt-5"><b>Jonathan Mathew</b></h4>
+                            <p>Sydney</p>
+      </div>
+   
+         <div class="swiper-slide com text-center d-block">
+        <img class="mt-3" width="150px" height="150px" style="border-radius: 100%;" src="https://themefox.online/archtera//assets/img/user-img-2.jpg">
+        <p class="mt-5">
+                     
+                            
+                                Archtera has provided a truly professional service. The design and
+                                implementation process was well coordinated. We are <br>very satisfied with the final
+                                outcome
+                                and would sincerely recommend Archtera to all for undertaking works where
+                                quality is utmost...
+                            
+                            
+                            </p>
+                            <h4 class="mt-5"><b>Mathew Faris</b></h4>
+                            <p>Armidale</p>
+      </div>
+
+            <div class="swiper-slide com text-center d-block">
+        <img class="mt-3" width="150px" height="150px" style="border-radius: 100%;" src="https://themefox.online/archtera//assets/img/user-img-3.jpg">
+        <p class="mt-5">
+                     
+                         
+                                Working with Archtera has been a hassle free experience for me. All I had to do was
+                                tell
+                                them how I wanted my space to <br> be and they have delivered exactly the way I pictured it.
+                                So,
+                                go ahead with Archtera for a wonderful professional <br> experience, and am sure they will
+                                make
+                                your dream into reality....
+                            
+                            
+                            </p>
+                            <h4 class="mt-5"><b>John Moris</b></h4>
+                            <p>New York</p>
+      </div>
+    </div>
+     
+  </div>
+         <div class="swiper-pagination2 text-center swp"></div>
+</div>
+<div class="container-fluid bg-light mt-5 pb-5 d-flex">
+   <div class="contbig22" style="margin: 0 auto;">
+    <h1 class="pt-5">GET IN TOUCH</h1>
+    <div class="div1 m-0"></div>
+     <input type="text" name="" placeholder="Name" class="inp m-2 mt-5 border" style="width:350px;">
+     <input type="number" name="" placeholder="Phone Number" class="inp m-2 border" style="width:350px;"><br>
+     <input type="email" name="" placeholder="Email" class="inp m-2 border" style="width:350px;">
+     <input type="text" name="" placeholder="Subject" class="inp m-2 border" style="width:350px;">
+     <textarea placeholder="Message" class="m-2" style="width: 720px;height: 200px;transition: 0.5s;"></textarea><br>
+     <button class="bt" style="margin-left: 530px;width: 200px;">SEND MESSAGE</button>
+
+   </div>
+   <div class="hyuj">
+     <div class="d-block">
+<div class="poqr">
+  <i class="fa fa-phone" style="color:orange;font-size: 20px;"></i><span class="ml-4"><b>PHONE</b></span>
+  <p style="font-size: 20px;" class="ml-5 mt-2">518-420-4264</p>
+  <p style="font-size: 20px;" class="ml-5 mt-2">518-698-1920</p>
+</div>
+<div class="poqr">
+  <i class="fa fa-envelope" style="color:orange;font-size: 20px;"></i><span class="ml-4"><b>E-MAIL</b></span>
+  <p style="font-size: 20px;" class="ml-5 mt-2">info@samplemail.com</p>
+  <p style="font-size: 20px;" class="ml-5 mt-2">support@samplemail.com</p>
+</div>
+<div class="poqr" style="border:none">
+  <i class="fa fa-map-marker" style="color:orange;font-size: 20px;"></i><span class="ml-4"><b>ADDRESS</b></span>
+  <p style="font-size: 18px; " class="ml-5 mt-2 text-secondary">1268 Hardesty Street <br>
+Colonie, New York. <br>
+12205</p>
+
+</div>
+     </div>
+   </div>
+</div>
+<div class="container-fluid mt-5 pt-5" style="overflow: hidden;">
+   <div class="swiper-container3">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide sd border shadow"><i class="fa fa-optin-monster kap" style="font-size: 30px;"></i><span class="kap">Template <span class="kar">Monster</span></span></div>
+      <div class="swiper-slide sd border shadow"><i class="fa fa-optin-monster kap" style="font-size: 30px;"></i><span class="kap">Template <span class="kar">Monster</span></span></div>
+      <div class="swiper-slide sd border shadow"><i class="fa fa-optin-monster kap" style="font-size: 30px;"></i><span class="kap">Template <span class="kar">Monster</span></span></div>
+      <div class="swiper-slide sd border shadow"><i class="fa fa-optin-monster kap" style="font-size: 30px;"></i><span class="kap">Template <span class="kar">Monster</span></span></div>
+      <div class="swiper-slide sd border shadow"><i class="fa fa-optin-monster kap" style="font-size: 30px;"></i><span class="kap">Template <span class="kar">Monster</span></span></div>
+      <div class="swiper-slide sd border shadow"><i class="fa fa-optin-monster kap" style="font-size: 30px;"></i><span class="kap">Template <span class="kar">Monster</span></span></div>
+    </div>
+</div>
+  <div class="swiper-pagination3 swp text-center"></div>
+  </div>
+  <div class="bg-dark mt-5" style="padding: 70px;">
+    <div class="row m-0">
+      <div class="col-3">
+      <img src="https://themefox.online/archtera//assets/img/logo-light.svg">
+      <p style="font-size: 20px;" class="text-white mt-3">Archtera offers the widest and best in class range in furniture, home furnishings & decor, modular kitchens, home improvement and more.</p>
+      </div>
+      <div class="col-3 text-white">
+        <h5>QUICK LINK</h5>
+        <p class="pp1"><span class="span2" style="color:orange;">></span><span class="span3">Home</span></p>
+        <p class="pp1"><span class="span2" style="color:orange;">></span><span class="span3">About Us<span></p>
+                <p class="pp1"><span class="span2" style="color:orange;">></span><span class="span3">Services</span></p>
+                        <p class="pp1"><span class="span2" style="color:orange;">></span><span class="span3">Contact Us</span></p>
+                                <p class="pp1"><span class="span2" style="color:orange;">></span><span class="span3">Privacy & Securityspan></span></p>
+                                      <p class="pp1"><span class="span2" style="color:orange;">></span><span class="span3">Terms & Conditions</span></p>
+
+      </div>
+
+      <div class="col-3 text-white">
+        <h5>FOLLOW US</h5>
+        <p class="pp1"><span class="span2" style="color:orange;">></span><span class="span3">Facebook</span></p>
+        <p class="pp1"><span class="span2" style="color:orange;">></span><span class="span3">
+Twitter<span></p>
+                <p class="pp1"><span class="span2" style="color:orange;">></span><span class="span3">Google+</span></p>
+                        <p class="pp1"><span class="span2" style="color:orange;">></span><span class="span3">Youtube</span></p>
+                                <p class="pp1"><span class="span2" style="color:orange;">></span><span class="span3">Instagram</span></p>
+                                      <p class="pp1"><span class="span2" style="color:orange;">></span><span class="span3">Linkedin</span></p>
+
+      </div>
+
+            <div class="col-3 text-white">
+        <h5>SUBSCRIBE</h5>
+        <p class="mt-4">Join our Newsletter for latest <br> updates from us</p>
+<input type="email" name="" placeholder="Enter your e-mail" class="inp" style="width: 250px;">
+<button class="bt" style="width: 250px;"><i class="fa fa-envelope"><span class="ml-2"><b>SUBSCRIBE</b></span></i></button>
+      </div>
+      
+
+ 
+</div>
+</div>
+
+<div class="foot bg-af">
+  <p style="font-size: 20px;">Copyright 2020. All Rights Reserved</p>
+</div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+          var tgg=false
+    var ikp=document.querySelectorAll(".dn")
+    var swiper = new Swiper('.swiper-container', {
+    	
+      direction: 'vertical',
+     autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+
+      },
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+       pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      speed:800,
+      loop:true,
+  on: {
+      slideChange: function () {
+setTimeout(function (){
+  $(".dn").addClass("dnp")
+},100);
+
+      },
+      realIndexChange:function (){
+        $(".dn").removeClass("dnp")
+      }
+    },
+
+    });
+
+  var swiper = new Swiper('.swiper-container2', {
+
+     autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+
+      },
+
+      pagination: {
+        el: '.swiper-pagination2',
+             clickable: true,
+
+      },
+    });
+
+    var swiper = new Swiper('.swiper-container3', {
+      slidesPerView: 5,
+      spaceBetween:30,
+      pagination: {
+        el: '.swiper-pagination3',
+        clickable: true,
+      },
+    });
+
+
+let a=document.querySelectorAll(".gh")
+console.log(a)
+   for(let i=0;i<a.length;i++){
+    a[i].id="id"+i
+    a[i].addEventListener("click",f)
+   }
+
+const o=["Archtera offers the widest and best in class range in furniture, home furnishings & decor, modular kitchens, home improvement and more. We promise to facilitate our customers with a unique and personalized shopping experience.","As a team of architects and designers, we are uniquely qualified to translate your property vision into visuals that will transport homebuyers and investors alike.","To form a team dedicated to providing exceptional customer service. We will provide a professional approach to constructing exceptional quality projects which meet budget and schedule goals."]
+	
+$(document).ready(function(){
+	let trss=true
+$("#ab").click(function(){
+	$("#ikij").toggleClass("tras")
+		$("#droopp2").toggleClass("d-none")
+	if(trss==true){
+$(".pp11").animate({top:'0'},200)
+		$(".pp22").animate({top:'50px'},270)
+			$(".pp33").animate({top:'100px'},340)
+				$(".pp44").animate({top:'150px'},410)
+        $(".p3").addClass("opp")
+	trss=false			
+}else if(trss==false){
+$(".pp11").animate({top:'50px'},0)
+		$(".pp22").animate({top:'100px'},0)
+			$(".pp33").animate({top:'150px'},0)
+				$(".pp44").animate({top:'200px'},0)
+				trss=true
+                $(".p3").removeClass("opp")
+}
+	
+		
+			
+		
+})
+});
+
+
+   function f(){
+    let b=this.id.slice(2)
+document.getElementById("pp").innerHTML=o[b]
+this.classList.add("yel")
+if(b==0){
+  a[1].classList.remove("yel")
+    a[2].classList.remove("yel")
+        document.getElementById("bt").classList.remove("d-none")
+}else if(b==1){
+    a[0].classList.remove("yel")
+    a[2].classList.remove("yel")
+    document.getElementById("bt").classList.add("d-none")
+}else if(b==2){
+      a[0].classList.remove("yel")
+    a[1].classList.remove("yel")
+        document.getElementById("bt").classList.add("d-none")
+}
+   }
+   let c=document.querySelectorAll(".php")
+   for(let i=0;i<c.length;i++){
+c[i].id="idd"+i
+c[i].addEventListener("click",y)
+   }
+let j=document.querySelectorAll(".arch")//3
+let k=document.querySelectorAll(".int")//2
+let l=document.querySelectorAll(".has")//3
+   function y(){
+   	let uj=this.id.slice(3)
+   
+   	if(uj==0){
+   	this.classList.add("ol")
+  c[1].classList.remove("ol")
+  c[2].classList.remove("ol")
+    c[3].classList.remove("ol")
+    for(let i=0;i<k.length;i++){
+      k[i].classList.remove("anim")
+          k[i].classList.remove("d-none")
+      k[i].classList.add("animynd")
+
+    }
+        for(let i=0;i<j.length;i++){
+    l[i].classList.remove("anim")
+ 
+   j[i].classList.remove("anim")
+  
+
+       l[i].classList.add("animynd")
+   l[i].classList.remove("d-none")  
+   j[i].classList.add("animynd")
+   j[i].classList.remove("d-none")
+    }
+
+   }else if(uj==1){
+   	this.classList.add("ol")
+  c[0].classList.remove("ol")
+  c[2].classList.remove("ol")
+    c[3].classList.remove("ol")
+  for(let i=0;i<k.length;i++){
+  	k[i].classList.add("d-none")
+      k[i].classList.remove("anim")
+       k[i].classList.remove("animynd")
+  }for(let i=0;i<j.length;i++){
+  	j[i].classList.remove("d-none")
+     j[i].classList.add("anim")
+            j[i].classList.remove("animynd")
+  }
+  for(let i=0;i<l.length;i++){
+       l[i].classList.add("d-none")
+        l[i].classList.remove("anim")
+               l[i].classList.remove("animynd")
+  }
+   }else if(uj==2){
+   	this.classList.add("ol")
+  c[0].classList.remove("ol")
+  c[1].classList.remove("ol")
+    c[3].classList.remove("ol")
+    for(let i=0;i<j.length;i++){
+  	j[i].classList.add("d-none")
+    l[i].classList.add("d-none")
+    j[i].classList.remove("anim")
+    l[i].classList.remove("anim")
+           l[i].classList.remove("animynd")
+                  j[i].classList.remove("animynd")
+  }
+  for(let i=0;i<k.length;i++){
+    k[i].classList.remove("d-none")
+    k[i].classList.add("anim")
+           k[i].classList.remove("animynd")
+  }
+   }else if(uj==3){
+   	this.classList.add("ol")
+  c[0].classList.remove("ol")
+  c[2].classList.remove("ol")
+    c[1].classList.remove("ol")
+    for(let i=0;i<j.length;i++){
+      j[i].classList.add("d-none")
+  j[i].classList.remove("anim")
+         j[i].classList.remove("animynd")
+    }
+     for(let i=0;i<k.length;i++){
+      k[i].classList.add("d-none")
+        k[i].classList.remove("anim")
+               k[i].classList.remove("animynd")
+    }
+  for(let i=0;i<l.length;i++){
+  l[i].classList.remove("d-none")
+  l[i].classList.add("anim")
+         l[i].classList.remove("animynd")
+    }
+   }
+}
+let uhh=false
+
+$("#dropMek").slideUp();
+$("#dropMEK").click(function(){
+		$("#dropErku").slideUp();
+			$("#dropEreq").slideUp();
+	if(uhh==false){
+		this.style="transform:rotate(180deg);transition0.5s;"
+		uhh=true
+
+	}else if(uhh==true){
+		this.style="transform:rotate(360deg);transition0.5s;"
+		uhh=false
+	}
+	
+	$("#dropMek").slideToggle(500);
+});
+let uik=false
+$("#dropErku").slideUp();
+$("#dropERKU").click(function(){
+		$("#dropMek").slideUp();
+		$("#dropEreq").slideUp();
+		if(uik==false){
+		this.style="transform:rotate(180deg);transition0.5s;"
+		uik=true
+
+	}else if(uik==true){
+		this.style="transform:rotate(360deg);transition0.5s;"
+	uik=false
+	}
+	$("#dropErku").slideToggle(500);
+});
+
+let uiks=false
+$("#dropEreq").slideUp();
+$("#dropEREQ").click(function(){
+		$("#dropMek").slideUp();
+			$("#dropErku").slideUp();
+		if(uiks==false){
+		this.style="transform:rotate(180deg);transition0.5s;"
+		uiks=true
+
+	}else if(uiks==true){
+		this.style="transform:rotate(360deg);transition0.5s;"
+	uiks=false
+	}
+	$("#dropEreq").slideToggle(500);
+});
+const ikih=document.querySelectorAll(".icon")
+const takimg=document.querySelectorAll(".takiImg")
+for(let i=0;i<ikih.length;i++){
+  ikih[i].addEventListener("click",popx)
+ikih[i].id="ikid"+i
+  
+takimg[i].id="taki"+i
+}
+const imgner=["https://themefox.online/archtera/assets/img/works/1-thump.jpg","https://themefox.online/archtera/assets/img/works/2-thump.jpg","https://themefox.online/archtera/assets/img/works/3-thump.jpg","https://themefox.online/archtera/assets/img/works/4-thump.jpg","https://themefox.online/archtera/assets/img/works/5-thump.jpg","https://themefox.online/archtera/assets/img/works/6-thump.jpg","https://themefox.online/archtera/assets/img/works/7-thump.jpg","https://themefox.online/archtera/assets/img/works/8-thump.jpg"]
+let idSl
+function popx(){
+idSl=+this.id.slice(4);
+document.getElementById("popp").classList.remove("d-none");
+document.getElementById("popImg").src=imgner[idSl]
+console.log(document.getElementById("popImg").id);
+for(let i=0;i<takimg.length;i++){
+  takimg[i].style="border-color:none;"
+}
+takimg[idSl].style="border:2px solid red;"
+
+  }
+
+function hajord(){
+
+if(idSl>=7){
+ idSl=0
+ idSl--
+}
+  idSl++
+document.getElementById("popImg").src=imgner[idSl]
+
+
+for(let i=0;i<takimg.length;i++){
+  takimg[i].style="border-color:none;"
+}
+  takimg[idSl].style="border:2px solid red;"
+
+  }
+ function naxord(){
+
+
+if(idSl<=0){
+idSl=8
+}
+  idSl--
+document.getElementById("popImg").src=imgner[idSl]
+
+
+for(let i=0;i<takimg.length;i++){
+  takimg[i].style="border-color:none;"
+}
+  takimg[idSl].style="border:2px solid red;"
+
+  }
+
+
+ function canc(){
+    document.getElementById("popp").classList.add("d-none")
+  }
+
+
+let ujik=0
+let yhuj
+let yhujj
+let yhujr
+window.onscroll = function hujn(){
+  console.log(scrollY)
+  if(window.scrollY>2247){
+yhuj=setInterval(das,220)
+yhujj=setInterval(dasmek,30)
+yhujz=setInterval(daserku,1)
+}
+}
+function das(){  
+ ujik+=1
+ if(ujik<=16){
+    document.getElementById("arajin").innerHTML=ujik
+ }else if(ujik>=16){
+
+  clearInterval(yhuj)
+ 
+}
+  }
+let ujiks=0
+  function dasmek(){  
+ ujiks+=1
+ if(ujiks<=183){
+    document.getElementById("erkrord").innerHTML=ujiks
+ }else if(ujiks>=183){
+
+  clearInterval(yhujj)
+ 
+}
+  }
+
+  let ujiksz=0
+  function daserku(){  
+ ujiksz+=1
+ if(ujiksz<=1247){
+    document.getElementById("errord").innerHTML=ujiksz
+ }else if(ujiksz>=1247){
+
+  clearInterval(yhujj)
+ 
+}
+  }
+  </script>
+</body>
+</html>
