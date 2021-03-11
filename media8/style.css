@@ -1,0 +1,390 @@
+
+	body{
+		background: #26b3ef;
+		height: 1000px;
+		
+		
+	}
+	.aa{
+		margin:10px;
+		border-radius: 10px;
+		border-color:#26b3ef!important; 
+		position: relative;
+transition: 0.5s;
+height: 97px!important;
+		background:black;
+		color:white;
+		margin-left: 0;
+		margin-right: 10px;
+
+	}
+	.anim{
+		color:#2661a2;
+		position: absolute;
+left: 0;
+width: 300px;
+height: 95px;
+top:1px;
+z-index: -11;
+background:white;
+		border-radius: 10px;
+		border-color:#26b3ef!important; 
+		transition: 0.3s;
+
+	}
+
+.hyujk{
+	margin-right: 0.5%;
+}
+.ujiik{
+	background: white!important;
+	color:#2661a2;
+}	
+.ftg{
+		background: white!important;
+	color:#2661a2;
+}
+	.ujuj{
+		z-index: 11;
+	}
+	.juki1{
+		top:97px;
+		z-index:10;
+	}
+	.juki2{
+		top:194px;
+			z-index:10;
+	}
+	.juki3{
+		top:291px;
+			z-index:10;
+	}
+	.juki4{
+		top:389px;
+			z-index:10;
+	}
+	.juki5{
+		top:486px;
+			z-index:10;
+	}
+		.juki6{
+		top:583px;
+			z-index:10;
+	}
+
+.juki11{
+		top:97px;
+		transition: 0s;
+					z-index:10;
+	}
+	.juki22{
+		top:194px;
+		transition: 0s;
+					z-index:10;
+	}
+	.juki33{
+		top:291px;
+		transition: 0s;
+					z-index:10;
+	}
+	.juki44{
+		top:389px;
+		transition: 0s;
+					z-index:10;
+	}
+	.juki55{
+		top:486px;
+		transition: 0s;
+					z-index:10;
+	}
+		.juki66{
+		top:583px;
+		transition: 0s;
+					z-index:10;
+	}
+
+
+
+	.st{
+
+		font-size: 20px;
+	}
+	.aa:hover{
+-webkit-box-shadow: 0px 5px 19px 9px rgba(0,0,0,0.2); 
+box-shadow: 0px 5px 19px 9px rgba(0,0,0,0.2);
+	}
+	.ftg{
+margin-top: 310px;
+		width:100%;
+	}
+	.sda{
+		height: 100px;
+		width: 21.5%;
+position: absolute;
+left: 0;
+margin: 0;
+margin-top: 9px;
+margin-left: 10px;
+	}
+	.tgyh{
+	margin-top: 10px;
+		position: absolute;
+		left: 4%;
+text-align: center;
+
+	}
+	.cont2{
+	width: 100%;
+		margin-left:24.5%;
+
+		display: flex;
+
+	}
+	.cont{
+		height: 300px;
+		width: 64.3%;
+	position: absolute;
+	left: 24.6%;
+		overflow: hidden;
+		
+		top:10px;
+	
+	}
+	.wdth{
+		width: 39%!important;
+	}
+	.biz{
+		position: relative;
+	justify-content: flex-end;
+		width: 150px;
+		text-align: center;
+	}
+.erd{
+
+	justify-content: space-between;
+}
+.okoki{
+	display: flex;
+	width:105%;
+}
+.arajin{
+	width:20%;
+		left: -5px;
+	position: relative;
+
+}
+.huj{
+	margin-right: 18px;
+}
+.conter2{
+	width: 100%;
+}
+.erkrord{
+	width:22%;
+
+}
+.erf{
+	width: 100%;
+}
+
+.zin{
+	width: 100%;
+}
+.big{
+	position: absolute;
+width: 100%;
+
+max-width: 1400px;
+}
+.big2{
+	display: flex;
+	justify-content: center;
+	width:100%;
+
+
+
+
+}
+
+
+.rgd22{
+				margin-top: 80px;
+			}
+			#erku{
+				width: 25%;
+			}
+@media screen and (max-width: 500px){
+	.rtfw{
+		width: 127%!important;
+		left: -30%;
+min-width: 100%!important;
+
+	
+	margin-top: 0;
+	}
+	.aa{
+		width: 97%;
+		margin:0 auto;
+	}
+	.sda{
+		
+		margin: 0 auto!important;
+		position: relative;
+
+	}
+
+.erkrord{
+	width:125px;
+	padding-left: 20px;
+}
+.arajin{
+	width: 160px;
+	height: 50px;
+
+}
+
+ .tgyh{
+ 	position: relative;
+ 	margin: 11px auto;
+ 	text-align: center;
+ }
+	.ftg{
+		margin-top: 10px;
+	}
+
+.cont2{
+	display: block;
+}
+.okoki{
+	display: block;
+width: 100%;
+left: -15px;
+	position: absolute;
+}
+
+	.zin{
+  width: 100%!important;
+	}
+	.cont{
+		left: 0;
+		top:425px;
+		width: 100%!important;
+		height: 400px;
+			}
+			.rgd{
+				font-size: 25px;
+			}
+			
+			.erd{
+				margin-right: 0;
+
+			}
+
+
+	.hyujk{
+	width: 97%!important;
+	left: 15px;
+}
+	.hyujki22{
+	width: 97%!important;
+	left: 15px;
+}
+
+
+}
+@media screen and (min-width: 501px) and (max-width: 1080px){
+	.arajin{
+		width: 160px;
+	}
+	.erkrord{
+		padding-left: 7px;
+	}
+	.aa{
+		width:49%;
+		margin:0 auto;
+	}
+	.sda{
+		width: 49%!important;
+	left: 0.5%;
+		position:absolute;
+		height: 95px;
+		top:2px;
+	}
+		 .tgyh{
+
+position: relative;
+text-align: center;
+ }
+				.cont{
+		left: 0;
+		top:215px;
+		width: 100%!important;
+		height: 400px;
+			}
+				.zin{
+  width: 100%;
+	}
+
+.cont2{
+	display: block;
+}
+.hyujk{
+	left:6.5%;
+	width: 49%!important;
+}
+.okoki{
+margin-top: 10px;
+position: absolute;
+left: -6.5%;
+	width: 100%!important;
+}
+#erku{
+	
+	position: relative;
+	left:26%; 
+	top:-8px;
+}
+.rtfw{
+	position: relative!important;
+	left:17%!important;
+	top:2px!important;
+width: 65%!important;
+}
+.hyujki22{
+	width: 49%!important;
+left: 6.5%;
+
+}
+}
+@media screen and (min-width: 1081px) and (max-width: 1125px){
+.sed{
+		position: absolute;
+		left: -1px;
+	}
+
+.cont{
+	width: 69.7%;
+left: 25%;
+
+}
+.cont2{
+	 margin-left: 25%;
+
+}
+.ftg{
+	width: 44%!important;
+}
+.tgyh{
+left: 0px;
+top:15%;
+}
+}
+
+@media screen and (min-width: 1px) and (max-width: 333px){
+.biz{
+position: absolute;
+top:0;
+left: 50%;
+}
+}
+
