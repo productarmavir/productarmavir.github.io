@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+			  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<style type="text/css">
+	.poqr{
+		height:200px;
+		background: red;
+		margin: 10px;
+			transition: 0.5s;
+	}
+.mec{
+	margin-left: 50px;
+	width: 500px;
+}
+.text{
+	margin-top:10px;
+	height: 420px;
+	width: 500px;
+}
+.big{
+justify-content: center;
+}
+.p11{
+	font-size: 20px;
+	color:white;
+	padding-top: 80px;
+}
+.p2{
+	font-size: 20px;
+	padding-top: 198px;
+	color:white;
+
+}
+
+.poqr:hover{
+		background: black!important;
+}
+</style>
+</head>
+<body>
+	<div class="d-flex big">
+<div class=" mec">
+	<div class="row arajin">
+		<div class="col-5 poqr text-center"><p class="p11">London</p></div>
+		<div class="col-5 poqr text-center"><p class="p11">Erevan</p></div>
+	</div>
+	<div class="row arajin">
+			<div class="col-5 poqr text-center"><p class="p11">Moscow</p></div>
+				<div class="col-5 poqr text-center"><p class="p11">Washington</p></div>
+	</div>
+</div>
+
+<div class="text bg-primary text-center">
+	<p class="p2" id="inf"></p>
+</div>
+</div>
+<script type="text/javascript">
+	let a=document.querySelectorAll(".poqr")
+	for(let i=0;i<a.length;i++){
+		a[i].addEventListener("mouseover",f)
+		a[i].addEventListener("mouseout",d)
+		
+		a[i].id="id"+i
+	}
+
+const content=["Capital of UK","Capital of Armenia","Capital of Russia","Capital of USA"]
+	let e
+	let k=false
+	let j
+	let s=false
+	function f(){
+	 e=+this.id.slice(2)
+	
+		document.getElementById("inf").innerHTML=content[e]
+
+	}
+		function d(){
+	
+					document.getElementById("inf").innerHTML=" "
+
+	}
+
+	
+</script>
+</body>
+</html>
