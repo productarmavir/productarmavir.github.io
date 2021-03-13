@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<title></title>
+				  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+	<style type="text/css">
+		.bt{
+			background: blue;
+			color:white;
+			height: 80px;
+			width: 80px;
+			border-radius: 100%;
+			border: none;
+transition: 0.5s;
+
+	
+		}
+		.bt:hover{
+			background: green;
+		}
+		.bt i{
+			font-size: 40px;
+		}
+		.qwed{
+	background: #ccc;
+			width: 300px;
+			border: 1px solid #ccc;
+			padding: 20px;
+
+			position: absolute;
+
+		}
+		.bt2{
+color:white;
+background: blue;
+border: none;
+padding: 5px;
+			width: 260px;
+			margin-top: 20px;
+			text-align:center;
+			transition: 0.5s;
+		}
+		.bt2:hover{
+			background: black;
+			color:white;
+		}
+		.chat{
+			position: relative;
+			overflow: hidden;
+			width: 300px;
+		left: 110px;	
+			top:470px;
+		}
+	</style>
+</head>
+<body>
+<div class=" d-flex justify-content-center">
+	<div class="container-fluid qwed" id="chat2">
+		<div class="row">
+			<div class="col-md-2 col-xs-12">
+			
+<button onclick="niravunq()" class="bt2" id="niravunq">Ընտանեկան իրավունք</button>
+<button onclick="pi()" class="bt2" id="pi">Պայմանագրային իրավունք</button>
+<button onclick="ai()" class="bt2" id="ai">Ապահովագրական իրավունք</button>
+<button onclick="che()" class="bt2" id="che">Ճանապարհային երթեվեկության կանոնների խախտման ակտեր</button>
+<button onclick="chtp()" class="bt2" id="chtp">ՃՏՊ</button>
+
+			</div> 	
+	
+
+	<p id="text"></p>
+
+<div class="d-flex">
+<input type="text" name="" placeholder="Այլ հարց...">
+<button class="text-white bg-primary">ՈՒղարկել</button>
+</div>
+		</div>
+	</div>
+
+<div></div>
+<div class="chat" id="chat">
+<button class="bt">
+	<i class="fa fa-envelope"></i>
+</button>
+</div>
+</div>
+<script type="text/javascript">
+$("#chat").click(function(){
+	$("#chat2").fadeToggle(100)
+	console.log("ok")
+})
+
+
+	function niravunq(){
+var x1 = document.getElementById("text"); 
+x1.innerHTML = "texekutyun @ntanekan iravunqi masin";
+
+	}
+		function pi(){
+var x1 = document.getElementById("text"); 
+x1.innerHTML = "texekutyun paymanagrayin iravunqi masin";
+	}
+	function ai(){
+var x1 = document.getElementById("text"); 
+x1.innerHTML = "texekutyun apahovagrakan iravunqi masin";
+	}
+		function che(){
+var x1 = document.getElementById("text"); 
+x1.innerHTML = "texekutyun chanaparhayin ertevekutyan kanoneri xaxtman akteri masin";
+	}
+			function chtp(){
+
+
+var x1 = document.getElementById("text"); 
+x1.innerHTML = "texekutyun chtpi masin";
+	}
+</script>
+
+</body>
+</html>
