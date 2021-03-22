@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap" rel="stylesheet">
+<style type="text/css">
+	.vern{
+		transition: 0.3s;
+	}
+	.rot{
+
+		transform: rotate(180deg);
+	}
+</style>
+</head>
+<body>
+	<div>
+	<p class=""><i class="fa fa-caret-square-o-down ml-2 mr-2 vern" id="slaq"></i>Vernagir</p>
+	<p class="context d-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+<script type="text/javascript">
+	let a=document.querySelectorAll(".vern")
+	let b=document.querySelectorAll(".context")
+let g=true
+	for(let i=0;i<=1;i++){
+		a[i].addEventListener("click",f)
+		b[i].id="id"+1
+		a[i].id="idd"+1
+	}
+
+	function f(){
+
+	let d=this.id.slice(3)
+
+		if(g==true){
+g=false
+document.getElementById("id"+d).classList.remove("d-none")
+this.classList.add("rot")
+
+		}else if(g==false){
+	g=true
+document.getElementById("id"+d).classList.add("d-none")
+this.classList.remove("rot")
+
+		}
+	}
+</script>
+</body>
+</html>
