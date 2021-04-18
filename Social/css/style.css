@@ -1,0 +1,130 @@
+*{
+	padding: 0;
+	margin:0;
+}
+.cont1{
+
+	height: 500px;
+	width: 400px;
+	background: white;
+	border:1px solid #42f542;
+	border-radius: 10px;
+	z-index: 111;
+}
+.cont1 input,button{
+
+	border:1px solid grey;
+	border-radius: 5px;	
+	width: 80%;
+	height:50px;
+	margin-left: 10%;
+	margin-top: 30px;
+}
+.sub_button{
+	transition: 0.3s;
+	color: white;
+border: 1px solid #42f542 ;
+	background:#42f542 ;
+}
+.sub_button:hover{
+	background: white;
+	border-color: #42f542 ;
+	color:#42f542 ;
+}
+
+.cont1 a{
+	text-decoration: underline;
+	color:#42f542
+;
+}
+.reg_button{
+	transition: 0.3s;
+		color: #42f542 ;
+	border-color:#42f542 ;
+	background:white;
+}
+.reg_button:hover{
+	color:white;
+	background: #42f542 ;
+}
+.cont_big{
+	height: 700px;
+}
+.nav-link{
+	color: #42f542 ;
+	transition: 0.3s;
+}
+.nav-link:hover{
+	color: orange;
+}
+.nav_size{
+	font-size: 25px;
+}
+.cont_posts{
+	width: 74%;
+
+
+padding-bottom:40px;
+}
+.cont_add{
+	width: 25%;
+
+
+}
+.post{
+	border-radius: 10px;
+	margin-left: 5%;
+	width: 90%;
+	padding-bottom: 50px;
+	background: white;
+	margin-top: 30px;
+}
+.post_img{
+	margin-left: 2.5%;
+}
+.post_like{
+	transition: 0.3s;
+}
+.post_like:hover{
+	color:	 #42f542 ;
+}
+.sms{
+	display: flex;
+	width: 90%;
+	margin-left: 5%;
+	background: red;
+	height: 500px;
+}
+.sms_chats{
+	height: 100px;
+	width: 25%;
+	background: orange;
+}
+.sms_conv{
+	height: 500px;
+	width: 75%;
+	background: green;
+	display: block;
+}
+.sms_nav{
+	height: 50px;
+	background: blue;
+}
+.sms_mesege{
+	background: red;
+	height: 380px;
+}
+
+@media only screen and (max-width: 498px){
+	.contbig_posts{
+		display: block!important;
+	}
+	.cont_add{
+		width: 98.2%;
+		margin-left: 0.8%;
+	}
+		.cont_posts{
+		width: 98.2%;
+		margin-left: 0.8%;
+	}
+}
