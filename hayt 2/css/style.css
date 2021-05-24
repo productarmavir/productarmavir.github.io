@@ -1,0 +1,214 @@
+*{
+	list-style-type: none;
+}
+body{
+background-repeat: no-repeat;
+background:  #d1483f;
+height: 100vh;
+}
+a{
+	text-decoration: none;
+}
+.zang{
+	justify-content: space-around;		
+}
+.zang button{
+	width: 35%;
+	height: 50px;	
+}
+
+.zangel{
+	transition: 0.3s;	
+	border: none;
+	border-radius: 50px;
+	color:white;
+	background: linear-gradient(to top left ,green 0%, white)
+}
+.zangel:hover{
+	background: white;
+	color:green;
+}
+.grel{
+	transition: 0.3s;	
+	border: none;
+	border-radius: 50px;
+	color:white;
+	background: linear-gradient(to top left ,red 0%, white)
+}
+.grel:hover{
+	background: white;
+	color:red;
+}
+li a{
+list-style-type: none;
+	color:white!important;
+}
+nav{
+	height: 50px;
+	border-radius: 5px;
+}
+.nav-item2{
+	height: 50px;
+		transition: 0.3s;
+}
+.nav-item2:hover{
+background: #28bdbd;
+
+}
+.nav-item2:hover a{
+
+	font-size: 17px;
+	color:red!important;
+}
+.nav-item2 a{
+	transition: 0.3s;
+	padding-top: 12px;
+}
+.arcticles{
+border-radius: 5px;
+	width: 78%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.arcticles2{
+border-radius: 5px;
+	width: 78%;
+
+}
+.categories{
+	border-radius: 5px;
+	width: 20%;
+}
+.TT{
+	transition: 0.3s;
+}
+.TT:hover{
+transform: translate(15px,0px);
+color:#db6565!important;
+}
+.TT i{
+	transition: 0.3s;
+	transform: scale(0);
+}
+
+.TT:hover i{
+	transform: scale(1);
+	color:#28bdbd;
+}
+.hashv{
+	transition: 0.3s;
+}
+.hashv:hover{
+transform: translate(15px,0px);
+color:#db6565!important;
+}
+.hashv i{
+	transition: 0.3s;
+	transform: scale(0);
+}
+
+.hashv:hover i{
+	transform: scale(1);
+	color:#28bdbd;
+}
+
+
+.ull li{
+	transition: 0.3s;
+	list-style: none;
+}
+.ull li:hover{
+	color:#28bdbd!important;
+}
+.ull li i{
+	transition: 0.3s;
+	transform: scale(0);
+}
+.ull li:hover i{
+	color:#db6565;
+	transform: scale(1);
+}
+.ull li:hover a{
+
+	color:#28bdbd!important;
+	transform: scale(1);
+}
+.arc{
+	transition: 0.3s;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+color:white;
+border-radius: 5px;
+	margin-top: 20px;
+	width: 32%;
+	opacity: 0.8;
+background: linear-gradient(to top left ,#28bdbd,red);
+	padding: 40px;
+}
+.arc:hover{
+		transition: 0.3s;
+background: linear-gradient(to top left ,red,#28bdbd);
+
+
+}
+.read{
+	background:#28bdbd;
+	color:#db6565;
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	transition: 0.3s;
+	top:280px;
+	width: 70%;
+	position: absolute;
+	left: 15%;
+}
+.arc:hover .read{
+	top:80%;
+
+}
+
+.read:hover{
+	background:white ;
+
+}
+.orang{
+	color:#db6565;
+
+}
+.read a{
+	text-decoration: none;
+	list-style-type: none;
+color:red;
+}
+.reg{
+
+	height: 400px;
+	width: 50%;
+}
+.reg input{
+	margin-top: 20px;
+	margin-left: 10%;
+	width: 80%;
+	padding: 10px;
+}
+.reg button{
+	transition:0.3s;
+	margin-top: 30px;
+	padding: 10px;
+	width: 80%;
+margin-left: 10%;
+background: linear-gradient(to top left ,#28bdbd,red);
+border: none;
+border-radius: 5px;
+color:white;
+}
+.reg button:hover{
+	background: white;
+	color:#28bdbd;;
+}
+
+
+
+

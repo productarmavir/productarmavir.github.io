@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title id="title"></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">	
+</head>
+<body>
+<div class="container">
+	<nav class="navbar navbar-expand-sm  justify-content-between" style="background:rgba(0,0,0,0.3);padding: 0;">
+<ul class="navbar-nav">
+	<li class="nav-item">
+		<a class="nav-link" href=""><b>ArmHayt</b></a>
+	</li>
+</ul>
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item nav-item2">
+      <a class="nav-link" href="#">Մենյու</a>
+    </li>
+    <li class="nav-item nav-item2">
+      <a class="nav-link" href="#">Հայտարարություններ</a>
+    </li>
+    <li class="nav-item nav-item2">
+      <a class="nav-link" href="#">Գովազդային առաջարկներ</a>
+    </li>
+  </ul>
+
+</nav>
+<div class="intro">
+</div>
+<div class="d-flex justify-content-between mt-3">
+	<div class="categories p-3 bg-dark">
+		<div class="cat1">
+			<div class="TT text-white" onclick="tt()"><i class="fa fa-code"></i> ՏՏ Ոլորտ</div>
+			<div class="TT_drop d-none" id="TT_drop">
+				<ul class="text-white ull">
+					<li><i class="fa fa-laptop"></i> &nbspWEB</li>
+					<li><i class="fa fa-photo"></i> &nbspPhotoshop</li>
+					<li><i class="fa fa-mobile-phone" style="font-size: 24px;"></i> &nbsp&nbsp&nbspAPP Developer</li>
+				</ul>
+			</div>
+		</div>
+			<div class="hashv text-white mt-3" onclick="hashv()"><i class="fa fa-calculator"></i> Հաշվապահություն</div>
+			<div class="hash_drop d-none" id="hash_drop">
+				<ul class="text-white ull">
+					<li onclick="hashvapah()"><i class="fa fa-percent"></i> &nbspՀաշվապահ/Հաշվետար</li>
+					<li onclick="audit()"><i class="fa fa-group"></i> &nbspԱուդիտ</li>
+				</ul>
+			</div>
+			
+	</div>
+<div class="arcticles2 p-3 bg-dark">
+	<h1 class="text-white" id="header"><i class="fa fa-laptop orang"></i></h1>
+	<h3 class="text-white" id="grafik"></h3>
+	<h5 class="text-white" id="sale"></h5>
+	<hr>
+<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<hr>
+<div class="d-flex zang">
+	<button class="zangel"><i class="fa fa-phone"></i> Զանգահարել</button>
+	<button class="grel"><i class="fa fa-envelope"></i> Գրել</button>
+</div>
+<div class="d-flex justify-content-around 	flex-wrap">
+		<div class="arc web">
+		<h4>WEB Developer</h4>
+		<p>Գրաֆիկը (09:00 - 18:00)</p>
+		<p>Աշխատավարձ - 455.000 AMD</p>
+		<button class="read"><b>Կարդալ ավելին</b></button>
+	</div>
+	<div class="arc photo">
+			<h4>Photoshoper</h4>
+		<p>Գրաֆիկը (09:00 - 20:00)</p>
+		<p>Աշխատավարձ - 655.000 AMD</p>
+		<button class="read"><b>Կարդալ ավելին</b></button>
+	</div>
+		<div class="arc app">
+				<h4>APP (UI/UX) Designer</h4>
+		<p>Գրաֆիկը (09:00 - 18:00)</p>
+		<p>Աշխատավարձ - 455.000 AMD</p>
+		<button class="read"><b>Կարդալ ավելին</b></button>
+		</div>
+		<div class="arc hashvapah">
+			<h4>Հաշվապահ</h4>
+		<p>Գրաֆիկը (09:00 - 20:00)</p>
+		<p>Աշխատավարձ - 355.000 AMD</p>
+		<button class="read"><b>Կարդալ ավելին</b></button>
+	</div>
+	<div class="arc hashvapah">
+			<h4>Հաշվետար</h4>
+		<p>Գրաֆիկը (09:00 - 20:00)</p>
+		<p>Աշխատավարձ - 155.000 AMD</p>
+		<button class="read"><b>Կարդալ ավելին</b></button>
+	</div>
+	<div class="arc audit">
+			<h4>Աուդիտ</h4>
+		<p>Գրաֆիկը (09:00 - 20:00)</p>
+		<p>Աշխատավարձ - 555.000 AMD</p>
+		<button class="read"><b>Կարդալ ավելին</button>
+	</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+const head=['WEB Developer','Photoshoper','APP (UI/UX) Designer','Հաշվապահ','Հաշվետար','Աուդիտ'];
+const graf=['Գրաֆիկը (09:00 - 18:00)','Գրաֆիկը (09:00 - 20:00)','Գրաֆիկը (09:00 - 18:00)','Գրաֆիկը (09:00 - 20:00)','Գրաֆիկը (09:00 - 20:00)','Գրաֆիկը (09:00 - 20:00)']
+const sal=['Աշխատավարձ - 455.000 AMD','Աշխատավարձ - 655.000 AMD','Աշխատավարձ - 455.000 AMD','Աշխատավարձ - 355.000 AMD','Աշխատավարձ - 155.000 AMD','Աշխատավարձ - 555.000 AMD']
+	let ui=+localStorage.getItem("num");
+	console.log(ui)
+	document.getElementById("title").innerHTML=head[ui]
+document.getElementById("header").innerHTML=head[ui]
+document.getElementById("grafik").innerHTML=graf[ui]
+document.getElementById("sale").innerHTML=sal[ui]
+</script>
+</body>
+</html>
